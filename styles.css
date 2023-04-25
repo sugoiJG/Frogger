@@ -1,9 +1,58 @@
+body {
+    background-color: #f0f0f0;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h3 {
+text-align: center;
+margin-bottom: 20px;
+}
+
+button {
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+    margin: 20px;
+    margin-left: 15%
+}
+
+/* Add this for the hover state of the button */
+button:hover {
+    background-color: #45a049;
+}
+
+/* Add this for the active state of the button */
+button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    transform: translateY(2px);
+}
+
 .grid {
     border: 1px solid black;
     height: 180px;
     width: 180px;
     display: flex;
     flex-wrap: wrap;
+    margin: 0 auto; /* Center the grid */
 }
 
 .grid div {
@@ -21,10 +70,12 @@
 
 .log-left, .log-right {
     background-color: aqua;
+    transition: transform 1s;
 }
 
 .car-left, .car-right {
     background-color: lightgray;
+    transition: transform 1s;
 }
 
 .frog {
@@ -32,11 +83,11 @@
 }
 
 .l1, .l2, .l3 {
-background-color: brown;
+    background-color: brown;
 }
 
 .l4, .l5 {
-    background-color: aqua
+    background-color: aqua;
 }
 
 .c1 {
