@@ -38,3 +38,11 @@ background-color: brown;
 .l4, .l5 {
     background-color: aqua
 }
+
+.c1 {
+    background-color: black;
+}
+
+.c2, .c3 {
+    background-color: lightgray;
+}
